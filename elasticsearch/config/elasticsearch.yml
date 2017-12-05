@@ -14,3 +14,7 @@ discovery.zen.minimum_master_nodes: 1
 ## see https://www.elastic.co/guide/en/elasticsearch/reference/current/bootstrap-checks.html
 #
 discovery.type: single-node
+
+## CORS config
+http.cors.allow-origin: /https:\/\/qlap\.limics\.fr|https?:\/\/qlap\.dev|https?:\/\/localhost(:[0-9]+)?/
+http.cors.enabled: true
