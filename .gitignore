@@ -1,3 +1,5 @@
 .env
 
 elasticsearch/data
+
+kibana/config/kibana.yml
